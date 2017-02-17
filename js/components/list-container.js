@@ -22,3 +22,8 @@ var ListContainer = React.createClass({
 });
 
 module.exports = ListContainer;
+
+// stateful component (object)
+// initial State is an empty array
+// on submit event the list is filled
+// List rendered with: title, submitted card, and submit form 

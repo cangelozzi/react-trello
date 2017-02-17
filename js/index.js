@@ -4,5 +4,5 @@ var Board = require('./components/board');
 
 document.addEventListener( 'DOMContentLoaded', function() {
 	var lists = [ "To Do", "Doing", "Done" ];
-	ReactDOM.render( <Board title="Trello-like board" lists={lists} />, document.getElementById( 'app' ));
+	ReactDOM.render( <Board title="React-Trello board" lists={lists} />, document.getElementById( 'app' ));
 });
