@@ -1,16 +1,25 @@
+body {
+    background: #1875AE;
+}
+
+.board {
+    display: flex;
+    flex-flow: row;
+}
+
+.list {
+    background: #E3E4E6;
+    padding: .5em;
+    border-radius: .1em;
+    display: flex;
+    flex-flow: column;
+    margin: .5em;
+}
+
 .card {
-    width: 200px;
-    text-align: center;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-}
-
-.thisIsACard {
-    font-weight: bold;
-}
-
-.highlight {
-    background-color: yellow;
+    background: #FFF;
+    border: 1px outset #FFF;
+    border-radius: .1em;
+    padding: .5em;
+    margin: .3em;
 }

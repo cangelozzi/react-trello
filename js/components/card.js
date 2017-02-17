@@ -1,13 +1,17 @@
 var React = require('react');
-var ReactDom = require('react-dom');
+var ReactDOM = require('react-dom');
 
-var Card = function() {
-  var thisIsACard = 'This is a card';
-  return(
-    <div className="card">
-      <div className="thisIsACard">{thisIsACard}</div>
-    </div>
-  );
-};
+var Card = React.createClass({
+	render: function() {
+		return (
+			<div className="card">
+				{this.props.text}
+			</div>
+		);
+	}
+});
 
 module.exports = Card;
+
+// stateful component
+// Card takes a {this.props.text}
