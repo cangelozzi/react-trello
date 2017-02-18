@@ -13,5 +13,5 @@ var Card = React.createClass({
 
 module.exports = Card;
 
-// stateful component
+// stateful component (object)
 // Card takes a {this.props.text}
