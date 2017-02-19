@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Card = require('./card');
+var ListContainer = require('./list-container');
 
 var List = React.createClass({
 	submit: function( event ) {
