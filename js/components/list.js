@@ -4,6 +4,13 @@ var Card = require('./card');
 var ListContainer = require('./list-container');
 
 var List = React.createClass({
+
+	getDefaultProps: function()	{
+		return {
+			cards: []
+		}
+	},
+
 	submit: function( event ) {
 		event.preventDefault();
 

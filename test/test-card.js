@@ -12,7 +12,6 @@ describe('Card component', function(){
 		renderer.render(<Card text={words} />);
 		var result = renderer.getRenderOutput();
 		result.props.className.should.equal('card');
-
 		result.props.children.should.equal(words)
 	});
 

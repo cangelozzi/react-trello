@@ -7,11 +7,12 @@ var Card = require('../js/components/card');
 
 describe('List Component', function(){
 	it('Renders a list of cards', function(){
-/*
+
 		var renderer = TestUtils.createRenderer();
 		renderer.render(<List />);
+		//console.log(renderer.render(<List />));
 		var result = renderer.getRenderOutput();
     result.props.className.should.equal('list');
-    */
+
 	});
 });
